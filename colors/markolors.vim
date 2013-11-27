@@ -18,16 +18,18 @@ let colors_name = "markolors"
 
 hi Normal ctermfg=15 ctermbg=235
 hi Constant ctermfg=214
-hi SpellBad ctermfg=None ctermbg=52 cterm=underline,bold
+hi SpellBad ctermfg=None ctermbg=52 cterm=underline
+hi SpellCap ctermfg=None ctermbg=17 cterm=underline
 hi ColorColumn ctermbg=173
 hi Directory ctermfg=121
+hi PmenuSel ctermbg=119
 
 hi VertSplit ctermfg=235 ctermbg=15
 hi Folded ctermfg=15 ctermbg=237
 
-hi CursorLine ctermbg=234 cterm=None
+hi CursorLine ctermbg=233 cterm=None
 hi Search ctermbg=11
-hi Visual ctermbg=234
+hi Visual ctermbg=238
 hi Statement ctermfg=117
 hi Identifier 	ctermfg=117
 hi Comment ctermfg=102
@@ -64,6 +66,7 @@ hi link htmlTagN htmlTagname
 hi Title ctermfg=136
 
 hi rstEmphasis ctermfg=214
+hi rstBulletList ctermfg=214
 hi rstStrongEmphasis ctermfg=177
 hi rstLiteralBlock ctermfg=191
 
